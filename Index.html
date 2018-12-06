@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kreon:700" rel="stylesheet">
   <meta charset="utf-8" />
   <title>Women in Tech</title>
   <link href='css/bootstrap.css' rel='stylesheet'>
@@ -9,6 +10,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/carousel.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -16,7 +18,7 @@
     <ul>
       <li id="home"> <a href="index.html">HOME</a></li>
       <li><a href="About.html">ABOUT US</a></li>
-      <li><a href="Blog.html">NEWS FEED</a></li>
+      <li><a href="Newsfeed.html">NEWS FEED</a></li>
       <li><a href="Contact.html">CONTACT US</a></li>
    </ul>
   </div>
@@ -37,9 +39,10 @@
         </div>
         <br><br>
         <div id='menupics'>
+        <div class="container">
          <h2>Rebecca</h2>
          <img class='circle'src='Images/Rebecca.jpg' height='350'>
-         <p>I studied biochemistry at uni...</p>
+         <p>I studied Biochemistry at Manchester University, because I liked the idea of learning about chemical processes in the human body, and I was too squeamish to study  Medicine! I did a year in industry as part of my degree working in the Early Drug Discovery unit at GSK where I looked at potential drugs to treat respiratory diseases. I really enjoyed this year, however, I realised that I was not well suited to life in the lab. After I finished Uni I knew I wanted to go onto a graduate scheme that utilised the transferable skills I had gained from my degree and Product at Just Eat caught my eye. I am now working in the Product Discovery team and learning something new every day!</p>
          <br><br>
 
          <h2>Samira</h2>
@@ -52,6 +55,7 @@
          <p>I heart tech...</p>
          <br><br>
         </div>
+        </div>
       </section>
 
       <section class="section parallax parallax-2">
@@ -62,7 +66,7 @@
 
       <section class="section content">
         <div class="container">
-          <h2>News Feed</h2>
+
           <!-- Carousel
    ================================================== -->
    <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -74,22 +78,22 @@
      </ol>
      <div class="carousel-inner" role="listbox">
        <div class="item active">
-         <img class="first-slide" src="images/coconutrings.jpg" alt="First slide">
+         <img class="first-slide" src="images/tubes.jpg" alt="First slide">
          <div class="container">
            <div class="carousel-caption">
-             <h1>Example headline.</h1>
-             <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-             <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+             <h1>Gitanjali Rao takes US young scientist prize</h1>
+             <p>Girl aged 11 has been honoured as "America's top young scientist" for inventing a quick, low-cost test to detect lead-contaminated water.</p>
+             <p><a class="btn btn-lg btn-primary" href="Newsfeed.html" role="button">Find out more</a></p>
            </div>
          </div>
        </div>
        <div class="item">
-         <img class="second-slide" src="images/jammiedodger.jpg" alt="Second slide">
+         <img class="second-slide" src="images/toptips.jpg" alt="Second slide">
          <div class="container">
            <div class="carousel-caption">
-             <h1>Another example headline.</h1>
-             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-             <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+             <h1>Our 3 top tips to getting started in Tech</h1>
+             <p>Read about our top 3 tips to bag a job in the technology sector.</p>
+             <p><a class="btn btn-lg btn-primary" href="Newsfeed.html" role="button">Learn more</a></p>
            </div>
          </div>
        </div>
@@ -129,9 +133,19 @@
 
       <section class="section content">
         <div class="container">
-          <h2>We would love to hear from you!</h2>
-          <p>Insert contact form here</p>
-        </div>
+          <h2>Say hello!</h2>
+          <p>Fill in the form to get in touch:</p>
+
+      <form action="mailto:samira.abokor@just-eat.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Message:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+      </form>
+    </div>
       </section>
 
     </main>
