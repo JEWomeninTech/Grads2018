@@ -90,6 +90,7 @@ section.section:last-child {
 section.section h2 {
   margin-bottom: 40px;
   font-size: 30px;
+  text-align: center;
 }
 section.section p {
   margin-bottom: 40px;
@@ -113,8 +114,8 @@ section.section.parallax {
   background-size: cover;
 }
 section.section.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 30px;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -139,11 +140,19 @@ section.section.parallax-3 {
     font-size: 20px;
   }
   section.section.parallax h1 {
-    font-size: 96px;
+    font-size: 60px;
   }
 }
 @media all and (min-width: 960px) {
   section.section.parallax h1 {
-    font-size: 160px;
+    font-size: 96px;
   }
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+#menupics{
+  text-align: center;
 }
