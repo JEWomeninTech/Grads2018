@@ -136,6 +136,10 @@ section.section.parallax-4 {
   background-image: url("../images/toptips.jpg");
 }
 
+section.section.parallax-5 {
+  background-image: url("../images/blog.jpg");
+}
+
 @media all and (min-width: 600px) {
   section.section h2 {
     font-size: 42px;
